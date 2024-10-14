@@ -18,6 +18,11 @@ app.use("/api/lists", require("./routes/listRoutes"));
 app.use("/api/shared", require("./routes/sharedRoutes"));
 app.use("/api/public", require("./routes/publicRoutes"));
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("Free Shopping List API is running");
+});
+
 // Error Handler Middleware
 app.use(errorHandler);
 
