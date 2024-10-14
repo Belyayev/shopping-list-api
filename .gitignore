@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea
+.vscode
+*.swp
+
+# Build directories
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Miscellaneous
+*.sublime-workspace
+*.sublime-project
+*.t
+*.tbc
+
+# Frontend dependencies (optional, if you're serving a frontend from this repo)
+frontend/node_modules
+frontend/build
+frontend/.env
+frontend/dist
+
+# Specific ignore patterns for custom paths, if any
+# e.g., specific folders or files to ignore in your project structure
