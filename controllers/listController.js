@@ -225,7 +225,7 @@ const deleteList = asyncHandler(async (req, res) => {
     throw new Error("User not authorized");
   }
 
-  await list.remove();
+  await list.deleteOne();
 
   res.status(200).json({ id: req.params.id });
 });
